@@ -1,6 +1,6 @@
 import sqlite3
 from flask import Flask, send_from_directory, request, jsonify
-from flask_cors import CORS  # comment this on deployment
+# from flask_cors import CORS  # comment this on deployment
 from dotenv import load_dotenv
 from os import environ
 import requests
