@@ -1,0 +1,17 @@
+{
+"type": "FeatureCollection",
+"name": "sample_terminal",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "i": 583, "Name": "Banashankari Bus Station" }, "geometry": { "type": "Point", "coordinates": [ 77.57401765, 12.91767509 ] } },
+{ "type": "Feature", "properties": { "i": 11270, "Name": "Bidadi" }, "geometry": { "type": "Point", "coordinates": [ 77.38470465, 12.7971414 ] } },
+{ "type": "Feature", "properties": { "i": 12479, "Name": "Central Silk Board (Towards Electronic City)" }, "geometry": { "type": "Point", "coordinates": [ 77.62413673, 12.91742686 ] } },
+{ "type": "Feature", "properties": { "i": 10161, "Name": "Goraguntepalya (Towards Tumkur Road)" }, "geometry": { "type": "Point", "coordinates": [ 77.54023321, 13.02974718 ] } },
+{ "type": "Feature", "properties": { "i": 10248, "Name": "Hebbala (Towards 279E)" }, "geometry": { "type": "Point", "coordinates": [ 77.58936524, 13.04127483 ] } },
+{ "type": "Feature", "properties": { "i": 8689, "Name": "Hoskote Bus Stand" }, "geometry": { "type": "Point", "coordinates": [ 77.7869153, 13.07881989 ] } },
+{ "type": "Feature", "properties": { "i": 12794, "Name": "KR Puram Bus Stand" }, "geometry": { "type": "Point", "coordinates": [ 77.6761213, 13.00029654 ] } },
+{ "type": "Feature", "properties": { "i": 5494, "Name": "Kengeri TTMC" }, "geometry": { "type": "Point", "coordinates": [ 77.48744936, 12.91361449 ] } },
+{ "type": "Feature", "properties": { "i": 8376, "Name": "Yelahanka Old Town" }, "geometry": { "type": "Point", "coordinates": [ 77.59434879, 13.10068796 ] } },
+{ "type": "Feature", "properties": { "i": 8816, "Name": "Yeshwanthapura TTMC" }, "geometry": { "type": "Point", "coordinates": [ 77.55651892, 13.01696175 ] } }
+]
+}
