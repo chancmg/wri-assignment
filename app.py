@@ -170,10 +170,12 @@ def get_distance_matrix():
                 "destinations": destinations,
                 "travelMode": "driving",
             }
+            print(environ.get('BING_KEY'))
             paramtr = {
                 "key": environ.get('BING_KEY')}
             r = requests.post('https://dev.virtualearth.net/REST/v1/Routes/DistanceMatrix',
                               data=json.dumps(payload), params=paramtr)
+            print(r.json())
             response["matrix"] = r.json()
             response["origins"] = origins
             response["destinations"] = destinations
