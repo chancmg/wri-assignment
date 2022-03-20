@@ -26,7 +26,7 @@ function Home() {
   })
   const fetchData = () => {
     axios
-      .get("http://127.0.0.1:5000/api/depot")
+      .get("https://intense-island-19970.herokuapp.com/api/depot")
       .then((response) => {
         console.log("SUCCESS", response);
         setData(response.data);

@@ -941,7 +941,7 @@ const Distance = () => {
   const [data, setData] = useState(mock);
   const fetchData = () => {
     axios
-      .get("http://127.0.0.1:5000/api/depot/distance")
+      .get("https://intense-island-19970.herokuapp.com/api/depot/distance")
       .then((response) => {
         console.log("SUCCESS", response);
         setData(response.data);

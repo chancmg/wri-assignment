@@ -50,7 +50,7 @@ const Upload = () => {
 
   const postDepots = (depots) => {
     axios
-      .post("http://127.0.0.1:5000/api/depot/add/bulk", depots)
+      .post("https://intense-island-19970.herokuapp.com/api/depot/add/bulk", depots)
       .then((response) => {
         console.log("SUCCESS", response);
         toast("Successfully uploaded");
