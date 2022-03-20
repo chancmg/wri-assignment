@@ -184,7 +184,7 @@ def get_distance_matrix():
 
 
 create_db_table()
-app = Flask(__name__, static_url_path='', static_folder='frontend/build')
+app = Flask(__name__, static_url_path='', static_folder='frontend/dist')
 CORS(app)  # comment this on deployment
 app.config['CORS_HEADERS'] = 'Content-Type'
 
